@@ -15,7 +15,7 @@ terminal-border: "5"
 # Line 1
 + label {
   left = 0
-  top = 2%
+  top = 1%
   width = 100%
   align = "center"
   text = "Spaceship Elea orbiting Kepler 186F"
@@ -26,7 +26,7 @@ terminal-border: "5"
 # Line 2
 + label {
   left = 0
-  top = 5%+20
+  top = 3%+10
   width = 100%
   align = "center"
   text = "Choose the OS for your mission:"
@@ -38,9 +38,9 @@ terminal-border: "5"
   left = 3%
   top = 16%
   width = 600
-  height = 120
+  height = 240
 
-  item_height = 80
+  item_height = 60
   item_spacing = 15
   item_padding = 15
 
@@ -60,7 +60,7 @@ terminal-border: "5"
 + label {
   color = "#6a6547"
   font = "Fragile Bombers Regular 60"
-  left = 9%+3
+  left = 5%+3
   top = 85%
   width = 31%
   align = "left"
@@ -70,8 +70,8 @@ terminal-border: "5"
 + label {
   color = "#6a6547"
   font = "Fragile Bombers Regular 60"
-  left = 9%+3
-  top = 88%
+  left = 5%+3
+  top = 90%
   width = 31%
   align = "left"
   text = "Press E for terraforming"
