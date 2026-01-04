@@ -26,7 +26,7 @@ terminal-border: "5"
 # Line 2
 + label {
   left = 0
-  top = 3%+20
+  top = 3%+40
   width = 100%
   align = "center"
   text = "Choose the OS for your mission:"
@@ -37,12 +37,12 @@ terminal-border: "5"
 + boot_menu {
   left = 3%
   top = 16%
-  width = 800
-  height = 440
+  width = 1400
+  height = 600
 
-  item_height = 60
-  item_spacing = 15
-  item_padding = 15
+  item_height = 50
+  item_spacing = 30
+  item_padding = 30
 
   item_font = "Fragile Bombers Regular 80"
   item_color = "#AE8C40"          # warm light orange, readable on black
