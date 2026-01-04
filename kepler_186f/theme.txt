@@ -5,7 +5,7 @@ desktop-image-h-align: "center"
 desktop-image-v-align: "center"
 desktop-color: "#000000"
 terminal-box: "terminal_box_*.png"
-terminal-font: "Fragile Bombers, Regular 20"
+terminal-font: "Fragile Bombers Regular 40"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -20,7 +20,7 @@ terminal-border: "5"
   align = "center"
   text = "Spaceship Elea orbiting Kepler 186F"
   color = "#3a4f45"
-  font = "Fixedsys Regular 32"
+  font = "Fragile Bombers Regular 40"
 }
 
 # Line 2
@@ -31,7 +31,7 @@ terminal-border: "5"
   align = "center"
   text = "Choose the OS for your mission:"
   color = "#3a4f45"
-  font = "Fixedsys Regular 32"
+  font = "Fragile Bombers Regular 40"
 }
 
 + boot_menu {
@@ -44,10 +44,10 @@ terminal-border: "5"
   item_spacing = 5
   item_padding = 1
 
-  item_font = "Fragile Bombers, Regular 20"
+  item_font = "Fragile Bombers Regular 40"
   item_color = "#AE8C40"          # warm light orange, readable on black
   selected_item_color = "#E9A233"
-  selected_item_font = "Fragile Bombers, Regular 20"
+  selected_item_font = "Fragile Bombers Regular 40"
 
   icon_width = 32
   icon_height = 32
@@ -59,9 +59,9 @@ terminal-border: "5"
 
 + label {
   color = "#6a6547"
-  font = "Fragile Bombers, Regular 20"
+  font = "Fragile Bombers Regular 40"
   left = 9%+3
-  top = 80%
+  top = 85%
   width = 31%
   align = "left"
   text = "Press C for Console"
@@ -69,17 +69,17 @@ terminal-border: "5"
 
 + label {
   color = "#6a6547"
-  font = "Fragile Bombers, Regular 20"
+  font = "Fragile Bombers Regular 40"
   left = 9%+3
-  top = 85%
+  top = 88%
   width = 31%
   align = "left"
-  text = "Press E for  terraforming"
+  text = "Press E for terraforming"
 }
 
 + label {
   color = "#6a6547"
-  font = "Fragile Bombers, Regular 20"
+  font = "Fragile Bombers Regular 40"
   left = 70%+5
   top = 80%
   width = 31%

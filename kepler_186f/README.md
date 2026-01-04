@@ -18,7 +18,7 @@ to
 
 I have used the following command to generate the font
 ```commandline
-sudo grub-mkfont --output=/boot/grub/fonts/FragileBombers.pf2 --size=20 /usr/share/fonts/Fragile\ Bombers.otf
+sudo grub-mkfont --output=/boot/grub/fonts/FragileBombers.pf2 --size=40 /usr/share/fonts/Fragile\ Bombers.otf
 ```
 
 Run the command sudo update grub theme. `grub-mkconfig -o /boot/grub/grub.cfg`
