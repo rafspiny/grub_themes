@@ -37,12 +37,12 @@ terminal-border: "5"
 + boot_menu {
   left = 3%
   top = 16%
-  width = 400
+  width = 600
   height = 120
 
   item_height = 80
-  item_spacing = 10
-  item_padding = 10
+  item_spacing = 15
+  item_padding = 15
 
   item_font = "Fragile Bombers Regular 80"
   item_color = "#AE8C40"          # warm light orange, readable on black
