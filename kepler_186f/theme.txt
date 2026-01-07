@@ -34,15 +34,26 @@ terminal-border: "5"
   font = "Fragile Bombers Regular 60"
 }
 
++ image {
+  left = 1%
+  top = 1%
+  width = 400
+  height = 200
+  image = "hive_screen.png"
+  image-scale-method = "padding"
+  image-h-align = "center"
+  image-v-align = "center"
+}
+
 + boot_menu {
   left = 3%
   top = 16%
   width = 1400
   height = 600
 
-  item_height = 50
-  item_spacing = 30
-  item_padding = 30
+  item_height = 100
+  item_spacing = 40
+  item_padding = 40
 
   item_font = "Fragile Bombers Regular 80"
   item_color = "#AE8C40"          # warm light orange, readable on black
@@ -77,8 +88,8 @@ terminal-border: "5"
   text = "Press E for terraforming"
 }
 
-+ label {
-  color = "#6A6547"
++ progress_bar {
+  text_color = "#6A6547"
   font = "Fragile Bombers Regular 60"
   left = 70%+5
   top = 86%+5
@@ -86,4 +97,6 @@ terminal-border: "5"
   align = "left"
   text = "Auto lunch in %d seconds"
   id = "__timeout__"
+  bar_style = "countdown_bg_*.png"
+  highlight_style = "countdown_pg_*.png"
 }
