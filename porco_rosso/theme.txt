@@ -1,0 +1,65 @@
+title-text: ""
+desktop-image: "porco_rosso_beach_access.png"
+desktop-image-scale-method: "padding"
+desktop-image-h-align: "center"
+desktop-color: "#000000"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Sevastopol Interface Regular 32"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 5%+19
+  top = 56%
+  width = 800
+  height = 200
+
+  item_height = 33
+  item_spacing = 0
+  item_padding = 0
+
+  item_font = "Funnel Sans Regular 29"
+  item_color = "#A29FB6"
+  item_icon_space = 0
+  icon_width = 0
+  icon_height = 0
+
+  selected_item_color = "#FFFFFF"
+  selected_item_font = "Funnel Sans Regular 29"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
++ label {
+  color = "#A29FB6"
+  font = "Funnel Sans Regular 29"
+  left = 5%
+  top = 84%
+  width = 31%
+  align = "left"
+  text = "C to inspect the engine"
+}
+
++ label {
+  color = "#A29FB6"
+  font = "Funnel Sans Regular 29"
+  left = 5%
+  top = 88%
+  width = 31%
+  align = "left"
+  text = "E to fix it"
+}
+
++ label {
+  color = "#6D7E55"
+  # 3B5F98
+  font = "Teko Regular 40"
+  left = 85%
+  top = 87%+1
+  width = 31%
+  align = "left"
+  id = "__timeout__"
+  text = "%d"
+}

@@ -34,17 +34,6 @@ terminal-border: "5"
   font = "Fragile Bombers Regular 60"
 }
 
-+ image {
-  left = 1%
-  top = 1%
-  width = 400
-  height = 200
-  image = "hive_screen.png"
-  image-scale-method = "padding"
-  image-h-align = "center"
-  image-v-align = "center"
-}
-
 + boot_menu {
   left = 3%
   top = 16%
@@ -52,8 +41,8 @@ terminal-border: "5"
   height = 600
 
   item_height = 100
-  item_spacing = 40
-  item_padding = 40
+  item_spacing = 20
+  item_padding = 20
 
   item_font = "Fragile Bombers Regular 80"
   item_color = "#AE8C40"          # warm light orange, readable on black
