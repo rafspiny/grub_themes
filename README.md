@@ -22,6 +22,12 @@ Simple version is inspired by the fonts of [Space Isolation](https://www.gnome-l
 The colourful version is still only a prototype in GIMP.
 ![Porco Rosso](porco_rosso/prototype.png "Porco Rosso - Simple theme")
 
+### Recognition
+The wallpaper is taken from a [reddit post](https://www.reddit.com/r/anime/comments/2i6kq1/100_studio_ghibli_wallpapers_awesome/).
+The whole set of wallpapers is available [here](https://imgur.com/a/100-studio-ghibli-wallpapers-XRAfu?gallery).
+
+The TTF font is Atkinson Hyperlegible Mono available from [Google fonts](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Mono?categoryFilters=Technology:%2FTechnology%2FVariable). The pf2 format font has been obtained by running `grub-mkfont --output=AtkinsonHyperlegible-31.pf2 -v --size=31 ./static/AtkinsonHyperlegibleMono-LightItalic.ttf 
+`
 ## Installation:
 
 Download and unzip or clone the repository and then move the theme you want `kepler_186f` or `porco_rosso` folder into `/boot/grub/themes` directory.

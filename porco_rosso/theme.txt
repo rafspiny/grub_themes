@@ -14,27 +14,27 @@ terminal-border: "0"
 + boot_menu {
   left = 5%+19
   top = 56%
-  width = 800
-  height = 200
+  width = 1000
+  height = 300
 
   item_height = 33
-  item_spacing = 0
-  item_padding = 0
+  item_spacing = 18
+  item_padding = 18
 
-  item_font = "Funnel Sans Regular 29"
+  item_font = "Atkinson Hyperlegible Mono Italic 31"
   item_color = "#A29FB6"
   item_icon_space = 0
   icon_width = 0
   icon_height = 0
 
   selected_item_color = "#FFFFFF"
-  selected_item_font = "Funnel Sans Regular 29"
+  selected_item_font = "Atkinson Hyperlegible Mono Italic 31"
   selected_item_pixmap_style = "selected_item_*.png"
 }
 
 + label {
   color = "#A29FB6"
-  font = "Funnel Sans Regular 29"
+  font = "Atkinson Hyperlegible Mono Italic 31"
   left = 5%
   top = 84%
   width = 31%
@@ -44,9 +44,9 @@ terminal-border: "0"
 
 + label {
   color = "#A29FB6"
-  font = "Funnel Sans Regular 29"
+  font = "Atkinson Hyperlegible Mono Italic 31"
   left = 5%
-  top = 88%
+  top = 87%
   width = 31%
   align = "left"
   text = "E to fix it"
