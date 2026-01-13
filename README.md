@@ -6,6 +6,8 @@ Two simple themes for Grub. One based on the artistic rendering of planet Kepler
 Simple Sci-Fi styled GRUB Theme. It is based on the artistic rendering of the planet Kepler 186f.
 The rendering is available from NASA [here](https://www.jpl.nasa.gov/images/pia17999-kepler-186f-the-first-earth-size-planet-in-the-habitable-zone-artists-concept/)
 
+![Kepler 186f](kepler_186f/kepler_186f_live_screenshot.jpeg "Kepler 186f - Grub theme")
+
 ## Porco Rosso
 The [iconic masterpiece](https://en.wikipedia.org/wiki/Porco_Rosso) from Hayao Miyazaki, means to me more than I can utter. 
 With every day that the world keeps destabilizing and de-humanizing people, I believe this opera can serve the purpose 
@@ -21,6 +23,9 @@ Simple version is inspired by the fonts of [Space Isolation](https://www.gnome-l
 
 The colourful version is still only a prototype in GIMP.
 ![Porco Rosso](porco_rosso/prototype.png "Porco Rosso - Simple theme")
+
+Here, the live version running on my laptop
+![Porco Rosso](porco_rosso/porco_ross_live_screenshot.jpeg "Porco Rosso - Simple theme")
 
 ### Recognition
 The wallpaper is taken from a [reddit post](https://www.reddit.com/r/anime/comments/2i6kq1/100_studio_ghibli_wallpapers_awesome/).
