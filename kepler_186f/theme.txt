@@ -84,7 +84,7 @@ terminal-border: "5"
   top = 86%+5
   width = 31%
   align = "left"
-  text = "Auto lunch in %d seconds"
+  text = "Auto launch in %d seconds"
   id = "__timeout__"
   bar_style = "countdown_bg_*.png"
   highlight_style = "countdown_pg_*.png"
